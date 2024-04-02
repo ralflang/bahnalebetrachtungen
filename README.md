@@ -4,9 +4,25 @@ notes repo
 
 ## MCAN / CC-Schnitte minimal setup
 
-Connect CC-Schnitte Mini DIN 6-pin to any of the two Gleisbox Mini DIN 10-pin sockets using the black cable
-Connect Gleisbox red wire and brown wire to track (see below)
-Connect Gleisbox to switching power supply. It should be  18V DC 36VA (2.0A)
+Connect CC-Schnitte Mini DIN 6-pin to any of the two Gleisbox Mini DIN 10-pin sockets using the black cable.
+Connect Mobile Station 2 to the remaining Gleisbox Mini DIN 10-pin socket.
+Connect Gleisbox red wire and brown wire to track as described below.
+Connect Gleisbox to switching power supply. It should be 18V DC 36VA (2.0A) for C-Track.
+Connect CC-Schnitte USB-B port to cable and connect cable "A" side to computer or hub.
+
+## MCAN / CC-Schnitte with Startpunkt2 setup
+
+Connect Startpunkt 2 Mini DIN 6-pin to any of the two Gleisbox Mini DIN 10-pin sockets using the black cable.
+Connect CC-Schnitte Mini DIN 6-pin to any of the two Startpunk 2 Mini DIN 10-pin sockets using the black cable. 
+Connect Mobile Station 2 to the remaining Startpunkt 2 Mini DIN 10-pin socket or anywhere else in the CdB network's Startpunkt, Spielpunkt or Sternpunkt DIN 10-pin sockets.
+Connect Gleisbox red wire and brown wire to track as described below.
+Connect Gleisbox to switching power supply. It should be 18V DC 36VA (2.0A) for C-Track.
+Connect Startpunkt 2 to switching power supply. The CdB sets usually ship Startpunkt 2 with a 12V 1.5 A power supply. Alternative supplies should be 12V DC 1.2 to 2.0 A.  Passive components on the bus tolerate higher voltage but notably the GleisReporter Deluxe and other active components strictly want 12 V.
+Connect CC-Schnitte USB-B port to cable and connect cable "A" side to computer or hub.
+
+### Gleisbox ports vs CdB bus ports
+
+In a setup with a StartPunkt2 I prefer to plug the CC-Schnitte and the "master" Mobile Station 2 (the one with the lower serial number) into the StartPunkt's DIN sockets and leave the remaining Gleisbox socket empty or use it for the least important device in the setup.
 
 ## Connecting wires to track
 
